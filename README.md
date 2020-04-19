@@ -71,8 +71,13 @@ banner:
   standfirst: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in felis sit amet mi eleifend tempus vitae a enim.
 ```
 
+To access the heading, you would use `{{ banner.heading }}`.
+
 ## Known Issues
 
+Currently, Statamic ignores the `max_files: 1` config. To get around this, you can use the `first` modifier like so. `{{ banner.background | first }}`.
+
+I'm looking into how to resolve this.
 
 ## Thanks
 Special thanks to [Andrew Haine](https://github.com/AndrewHaine), whose Accordion Group fieldtype helped guide the approach to this addon.
