@@ -1,0 +1,10 @@
+name: Group
+version: 1.0.0
+description: Group fields into a keyed array; similar to ACF's Group fieldset.
+developer: Ben Furfie
+developer_url: https://benfurfie.co.uk
+commercial: false
+fieldtype_fields:
+  child_fieldset:
+    type: fieldset
+    hidden: true
